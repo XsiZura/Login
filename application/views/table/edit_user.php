@@ -15,7 +15,7 @@
 
             <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" name="email" value="<?= htmlspecialchars($user['email']); ?>" placeholder="Enter New Email">
+                <input type="email" class="form-control" id="email" name="email" value="<?= htmlspecialchars($user['email']); ?>" placeholder="Enter New Email" readonly >
                 <?= form_error('email', '<small class="text-danger">', '</small>'); ?>
             </div>
 
